@@ -1,0 +1,189 @@
+#page-container{
+    background-image: url("/assets/background.jpeg");
+    height: 100%;
+    background-size: cover;
+}
+#top-panel{
+    display: flex;
+    justify-content: space-evenly;
+    height: 15%;
+}
+.menu-item{
+    background: #009688;
+    color: white;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px;
+    font-family: 'Texturina', serif;
+}
+#content-container{
+    height: 85%;
+}
+#advertisement-container{
+    height:50%;
+    display: flex;
+}
+#bottom-container{
+    height:50%;
+    display:flex;
+}
+#left-advert-box{
+    width:30%;
+    background-color: white;
+    margin-left: 150px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-right:25px;
+
+    background-image: url("/assets/airplane2.jpg");
+    display: flex;  
+    background-size: cover;
+}
+#right-advert-box{
+    width:70%;
+    background-color: white;
+    margin-right: 150px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left:25px;
+}
+#bottom-left-box{
+    width:50%;
+    background-color: white;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right:25px;
+}
+#avatar-box{
+    width:50%;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-left:25px;
+    display: flex;
+}
+#left-photo{
+    width: 100px;
+    height:100px;
+    width:50%;
+}
+#left-description{
+    width:50%;
+    background-color: hsla(0,0%,100%,.8);
+    padding:10px;
+    font-family: 'Texturina', serif;
+}
+#right-advert-box{
+    background-image: url("/assets/plant4.jpg");
+    display: flex;  
+    background-size: cover;
+}
+#right-description{
+    width:30%;
+    background-color: hsl(0deg 0% 100% / 63%);
+    padding:10px;
+    font-family: 'Texturina', serif;
+}
+#bottom-left-box{
+    background-image: url("/assets/innovation.jpg");
+    display: flex;  
+    background-size: cover;
+    justify-content: flex-end;
+}
+#bottom-left-description{
+    width:30%;
+    background-color: hsl(0deg 0% 100% / 63%);
+    padding:10px;
+    font-family: 'Texturina', serif;
+}
+#avatar-gif{
+    width:50%;
+}
+#avatar-czat{
+    width:50%;
+}
+#chat{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 100%;
+}
+#title-chat{
+    height: 10%;
+    background-color: white;
+    color: #009688;
+    font-family: 'Texturina', serif;
+    padding:5px;
+}
+#chat-conversation{
+    height: 70%;
+    background-color: #ffffffa1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    overflow-y: auto;
+
+}
+#chat-conversation > :first-child {
+    margin-top: auto !important;
+    /* use !important to prevent breakage from child margin settings */
+}
+#input-chat{
+    height: 10%;
+    width: 60%;
+    background: #ffffff;
+    color: black !important;
+    border: 1px;
+    margin-top: 2px;
+    font-family: 'Texturina', serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#input-chat::placeholder{
+    color: black !important;
+    font-family: 'Texturina', serif;
+  }
+
+.bot-cloud{
+    background-color: #68a568;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    width: fit-content;
+    font-family: 'Texturina', serif;
+    color: white;
+    max-width: 70%;
+}
+
+.user-cloud{
+    display: flex;
+    background-color: #FFC107;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    width: fit-content;
+    align-self: flex-end;
+    font-family: 'Texturina', serif;
+    color: white;
+    max-width: 70%;
+    margin: 5px;
+}
+#avatar-gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send-button{
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    min-height: 30px;
+    margin-left: 50px;
+}
